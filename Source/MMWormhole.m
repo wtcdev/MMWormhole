@@ -110,6 +110,10 @@ void wormholeNotificationCallback(CFNotificationCenterRef center,
                                                                                                       optionalDirectory:directory];
 #endif
                 break;
+            case MMWormholeTransitingTypeSimulatorFile:
+                self.wormholeMessenger = [[MMWormholeSimulatorFileTransiting alloc] initWithOptionalDirectory:directory];
+
+                break;
             default:
                 break;
         }
