@@ -31,10 +31,7 @@
 		9B44A51E1B00572E00C9969A /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B44A4801B0055F500C9969A /* MMWormhole.m */; };
 		B5E4EA592472A2FF00F48B38 /* MMWormholeSimulatorFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E4EA572472A2FF00F48B38 /* MMWormholeSimulatorFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5E4EA5B2472A2FF00F48B38 /* MMWormholeSimulatorFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E4EA582472A2FF00F48B38 /* MMWormholeSimulatorFileTransiting.m */; };
-		B5E4EA5C2472A2FF00F48B38 /* MMWormholeSimulatorFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E4EA582472A2FF00F48B38 /* MMWormholeSimulatorFileTransiting.m */; };
 		B5E4EA5E2472A32300F48B38 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4EA5D2472A32200F48B38 /* Codable.swift */; };
-		B5E4EA5F2472A32300F48B38 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4EA5D2472A32200F48B38 /* Codable.swift */; };
-		B5E4EA602472A35A00F48B38 /* MMWormholeSimulatorFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E4EA572472A2FF00F48B38 /* MMWormholeSimulatorFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9DBE1651B7DFA7200C9A9B5 /* MMWormholeUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DBE1641B7DFA7200C9A9B5 /* MMWormholeUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9DBE1661B7DFA7200C9A9B5 /* MMWormholeUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DBE1641B7DFA7200C9A9B5 /* MMWormholeUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -182,7 +179,6 @@
 				9B44A51D1B00572E00C9969A /* MMWormhole.h in Headers */,
 				55030BDB1B165D8F005EFC19 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
 				55AB6F041BA77D8F003908DC /* MMWormholeTransiting.h in Headers */,
-				B5E4EA602472A35A00F48B38 /* MMWormholeSimulatorFileTransiting.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E4EA5C2472A2FF00F48B38 /* MMWormholeSimulatorFileTransiting.m in Sources */,
 				55030BDD1B165D8F005EFC19 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
 				55030BE11B165D8F005EFC19 /* MMWormholeFileTransiting.m in Sources */,
-				B5E4EA5F2472A32300F48B38 /* Codable.swift in Sources */,
 				9B44A51E1B00572E00C9969A /* MMWormhole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
